@@ -13,7 +13,7 @@ import platform
 print(platform.architecture())
 
 # Load the DLL
-compute_lib = ctypes.CDLL("./libcompute.dll")
+compute_lib = ctypes.CDLL("./dll/libcompute.dll")
 
 # Define the function signature of heavy_computation
 # Adjust argtypes and restype based on the actual C++ function
